@@ -21,6 +21,15 @@
         OUTPUT:
         <br>
         <div id="output">No Data</div>
+
+        <div id="form">
+            <form method="post" action="php/insert.php" onsubmit="return submitData(this)">
+                <div><input type="text" name="firstname" placeholder="First Name" /></div>
+                <div><input type="text" name="lastname" placeholder="last Name" /></div>
+                <div><input type="text" name="age" placeholder="Age" /></div>
+                <div><input type="submit" id="button" value="Send"></div>
+            </form>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
