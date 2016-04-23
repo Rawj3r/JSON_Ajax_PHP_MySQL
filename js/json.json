@@ -1,0 +1,32 @@
+{
+  "user1": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 25
+  },
+  "user2": {
+    "firstName": "Roger",
+    "lastName": "Nkosi",
+    "age": 25
+  },
+  "user3": {
+    "firstName": "Geoff",
+    "lastName": "Seloana",
+    "age": 22
+  },
+  "user4": {
+    "firstName": "Greg",
+    "lastName": "Sithole",
+    "age": 23
+  },
+  "user5": {
+    "firstName": "Jabu",
+    "lastName": "Skhosana",
+    "age": 26
+  },
+  "user6": {
+    "firstName": "Knowledge",
+    "lastName": "Nkosi",
+    "age": 17
+  }
+}
