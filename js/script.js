@@ -8,7 +8,7 @@ output.innerHTML = "";
 //Ajax request
 
 var ajaxhttp = new XMLHttpRequest();
-var url = "js/json.json";
+var url = "php/json.php";
 
 
 ajaxhttp.open("GET", url, true);
@@ -18,7 +18,7 @@ ajaxhttp.onreadystatechange = function(){
     if (ajaxhttp.readyState == 4 && ajaxhttp.status == 200){
         var jsconent = JSON.parse(ajaxhttp.responseText);
         for(var objects in jsconent){
-            output.innerHTML += '<div>' + jsconent[objects].firstName + ' ' + jsconent[objects].lastName + ' ' + jsconent[objects].age + '</div>';
+            output.innerHTML += '<div>' + jsconent[objects].firstname + ' ' + jsconent[objects].lastname + ' ' + jsconent[objects].age + '</div>';
         }
         console.log(jsconent)
     }
